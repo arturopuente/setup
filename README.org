@@ -1,0 +1,5 @@
+* Setup script for my dev environment
+
+#+BEGIN_SRC bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/arturopuente/setup/master/setup.rb)"
+#+END_SRC
