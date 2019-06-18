@@ -1,7 +1,5 @@
 #!/usr/bin/ruby
 
-system "/usr/bin/ruby -e \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\""
-
 class Homebrew
   def self.setup(&block)
     self.new.instance_eval(&block)
